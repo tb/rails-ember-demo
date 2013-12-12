@@ -1,0 +1,4 @@
+Rails Ember Demo
+================
+
+Documentation

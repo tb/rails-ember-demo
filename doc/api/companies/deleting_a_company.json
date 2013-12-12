@@ -1,0 +1,32 @@
+{
+  "resource": "Companies",
+  "http_method": "DELETE",
+  "route": "/api/companies/:id",
+  "description": "Deleting a company",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "DELETE",
+      "request_path": "/api/companies/458",
+      "request_body": null,
+      "request_headers": {
+        "Accept": "application/json",
+        "Content-Type": "application/json",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/json",
+      "response_status": 204,
+      "response_status_text": "No Content",
+      "response_body": null,
+      "response_headers": {"X-Frame-Options":"SAMEORIGIN","X-XSS-Protection":"1; mode=block","X-Content-Type-Options":"nosniff","X-UA-Compatible":"chrome=1","Location":"http://example.org/api/companies","Cache-Control":"no-cache","X-Request-Id":"4fd5ec10-f59a-435b-b127-ef2f0b1e20fc","X-Runtime":"0.068360"},
+      "response_content_type": null,
+      "curl": "curl \"http://localhost:3000/api/companies/458\" -d '' -X DELETE \\\n\t-H \"Accept: application/json\" \\\n\t-H \"Content-Type: application/json\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+}
+  ]
+}

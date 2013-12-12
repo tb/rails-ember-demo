@@ -6,6 +6,8 @@ gem 'pg'
 gem 'inherited_resources'
 gem 'paper_trail', '>= 3.0.0.rc1'
 gem 'active_model_serializers'
+gem 'rspec_api_documentation'
+gem 'apitome'
 gem 'factory_girl_rails'
 gem 'ffaker', '~> 1.16.2'
 
@@ -33,6 +35,7 @@ end
 group :development, :test do
   gem 'database_cleaner', '1.0.1'
   gem 'rspec-rails'
+  gem 'json_spec'
   gem 'pry-rails', '~> 0.3.1'
   gem 'active_model_serializers-matchers', github: 'tb/active_model_serializers-matchers'
 end

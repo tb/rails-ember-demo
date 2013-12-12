@@ -1,0 +1,32 @@
+{
+  "resource": "Companies",
+  "http_method": "GET",
+  "route": "/api/companies",
+  "description": "Listing companies",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/api/companies",
+      "request_body": null,
+      "request_headers": {
+        "Accept": "application/json",
+        "Content-Type": "application/json",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/json",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\"companies\":[{\"id\":462,\"name\":\"Von, Adams and Waters\",\"address\":\"46881 Alfreda Coves\",\"city\":\"South Maryjaneton\",\"country\":null,\"email\":\"simeon@stokes.com\",\"phone\":\"1-619-086-7365 x17721\"},{\"id\":463,\"name\":\"Stiedemann, Goldner and Weber\",\"address\":\"83045 Dibbert Parks\",\"city\":\"Lenniemouth\",\"country\":null,\"email\":\"hailee.hills@rempel.us\",\"phone\":\"1-149-062-6124\"}]}",
+      "response_headers": {"X-Frame-Options":"SAMEORIGIN","X-XSS-Protection":"1; mode=block","X-Content-Type-Options":"nosniff","X-UA-Compatible":"chrome=1","Content-Type":"application/json; charset=utf-8","ETag":"\"3560e0b0791014a39df3cc96445b04ba\"","Cache-Control":"max-age=0, private, must-revalidate","X-Request-Id":"3a4da7f0-cf4e-4075-9f08-af1092d5f8c1","X-Runtime":"0.007228","Content-Length":"367"},
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/api/companies\" -X GET \\\n\t-H \"Accept: application/json\" \\\n\t-H \"Content-Type: application/json\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+}
+  ]
+}

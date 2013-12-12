@@ -1,0 +1,32 @@
+{
+  "resource": "Companies",
+  "http_method": "GET",
+  "route": "/api/companies/:id",
+  "description": "Getting a specific company",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/api/companies/459",
+      "request_body": null,
+      "request_headers": {
+        "Accept": "application/json",
+        "Content-Type": "application/json",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/json",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\"company\":{\"id\":459,\"name\":\"Feeney, Pollich and Runolfsson\",\"address\":\"4568 Hyatt Motorway\",\"city\":\"Lake Kayli\",\"country\":null,\"email\":\"stewart@raynor.ca\",\"phone\":\"(053)047-6092 x50078\"}}",
+      "response_headers": {"X-Frame-Options":"SAMEORIGIN","X-XSS-Protection":"1; mode=block","X-Content-Type-Options":"nosniff","X-UA-Compatible":"chrome=1","Content-Type":"application/json; charset=utf-8","ETag":"\"f600120f795b8745721fe426225507b1\"","Cache-Control":"max-age=0, private, must-revalidate","X-Request-Id":"5d7a5350-f4d4-494c-aebc-003a5e737b93","X-Runtime":"0.010870","Content-Length":"188"},
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl \"http://localhost:3000/api/companies/459\" -X GET \\\n\t-H \"Accept: application/json\" \\\n\t-H \"Content-Type: application/json\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+}
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "resources": [
+    {
+      "name": "Companies",
+      "examples": [
+        {
+          "description": "Deleting a company",
+          "link": "companies/deleting_a_company.json",
+          "groups": "all"
+        },
+        {
+          "description": "Getting a specific company",
+          "link": "companies/getting_a_specific_company.json",
+          "groups": "all"
+        },
+        {
+          "description": "Updating a company",
+          "link": "companies/updating_a_company.json",
+          "groups": "all"
+        },
+        {
+          "description": "Creating an company",
+          "link": "companies/creating_an_company.json",
+          "groups": "all"
+        },
+        {
+          "description": "Listing companies",
+          "link": "companies/listing_companies.json",
+          "groups": "all"
+        }
+      ]
+    }
+  ]
+}

@@ -27,4 +27,11 @@ Spork.each_run do
     config.infer_base_class_for_anonymous_controllers = false
     config.order = "random"
   end
+
+  RspecApiDocumentation.configure do |config|
+    config.api_name = "Rails Ember Demo API"
+    config.curl_host = 'http://localhost:3000'
+    config.format = :json
+    config.keep_source_order = true
+  end
 end
