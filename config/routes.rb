@@ -1,5 +1,9 @@
 RailsEmberDemo::Application.routes.draw do
 
+  root 'companies#index'
+
+  resources :companies
+
   namespace :api do
     resources :companies
   end
