@@ -4,12 +4,14 @@ gem 'rails', '4.0.2'
 
 gem 'pg'
 gem 'inherited_resources'
+gem 'paperclip', '~> 3.0'
 gem 'paper_trail', '>= 3.0.0.rc1'
 gem 'active_model_serializers'
-gem 'rspec_api_documentation'
+gem 'rspec_api_documentation', github: 'zipmark/rspec_api_documentation', branch: 'uploaded_data'
 gem 'apitome'
 gem 'factory_girl_rails'
 gem 'ffaker', '~> 1.16.2'
+gem 'countries', require: 'iso3166'
 
 gem 'sass-rails', '~> 4.0.0'
 gem 'uglifier', '>= 1.3.0'
@@ -42,4 +44,5 @@ end
 
 group :test do
   gem 'spork', github: 'sporkrb/spork'
+  gem 'shoulda-matchers'
 end
