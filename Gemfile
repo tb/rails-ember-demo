@@ -46,3 +46,7 @@ group :test do
   gem 'spork', github: 'sporkrb/spork'
   gem 'shoulda-matchers'
 end
+
+group :production do
+  gem 'rails_12factor'
+end

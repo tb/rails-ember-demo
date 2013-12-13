@@ -16,3 +16,7 @@
     rake docs:generate
 
     http://localhost:3000/api/docs
+
+# Heroku
+
+    http://vast-falls-3537.herokuapp.com/
