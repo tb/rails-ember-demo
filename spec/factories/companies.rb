@@ -3,8 +3,9 @@
 FactoryGirl.define do
   factory :company do
     name { Faker::Company.name }
-    city { Faker::Address.city }
     address { Faker::Address.street_address }
+    city { Faker::Address.city }
+    country { ISO3166::Country.all.sample.first }
     email { Faker::Internet.email }
     phone { Faker::PhoneNumber.phone_number   }
   end
