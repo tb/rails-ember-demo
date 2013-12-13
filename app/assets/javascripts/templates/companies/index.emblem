@@ -1,0 +1,31 @@
+h2
+  | Companies&rsaquo;
+  linkTo 'companies.new' | New company
+
+table
+  thead
+    tr
+      th ID
+      th Name
+      th Address
+      th City
+      th Country
+      th Email
+      th Phone
+      th Passports count
+      th
+  tbody
+    each controller itemController='company'
+      tr
+        td= id
+        td= name
+        td= address
+        td= city
+        td= country
+        td= email
+        td= phone
+        td= passportsCount
+        td
+          linkTo 'company.edit' this | Edit
+          | &nbsp;
+          a href="#" click="delete this" Delete

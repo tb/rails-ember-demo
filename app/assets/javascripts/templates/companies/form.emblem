@@ -1,0 +1,21 @@
+ul
+  li
+    label Name
+    view Ember.TextField valueBinding="name"
+  li
+    label Address
+    view Ember.TextField valueBinding="address"
+  li
+    label City
+    view Ember.TextField valueBinding="city"
+  li
+    label Country
+    view Ember.TextField valueBinding="country"
+  li
+    label Email
+    view Ember.TextField valueBinding="email"
+  li
+    label Phone
+    view Ember.TextField valueBinding="phone"
+
+button{action "save"} Save

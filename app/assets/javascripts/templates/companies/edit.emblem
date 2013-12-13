@@ -1,0 +1,5 @@
+h2
+  linkTo 'companies' | Companies
+  | &rsaquo;Editing
+
+= partial 'companies/form'
