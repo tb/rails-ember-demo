@@ -17,6 +17,8 @@
 
     http://localhost:3000/api/docs
 
-# Heroku
+# Heroku links
 
     http://vast-falls-3537.herokuapp.com/
+
+    http://vast-falls-3537.herokuapp.com/api/docs
