@@ -6,12 +6,17 @@ resource "Companies" do
   header "Content-Type", "application/json"
 
   let(:company) { create :company }
+  let(:company_2) { create :company }
 
   get "/api/companies" do
-    before { 2.times { create :company } }
+    let!(:company) { create :company }
+    let!(:company_2) { create :company }
 
     example "Listing companies" do
       do_request
+
+      response_body.should include(CompanySerializer.new(company).to_json)
+      response_body.should include(CompanySerializer.new(company_2).to_json)
 
       status.should == 200
     end
