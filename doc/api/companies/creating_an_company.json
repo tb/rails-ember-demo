@@ -46,7 +46,7 @@
     {
       "request_method": "POST",
       "request_path": "/api/companies",
-      "request_body": "{\"company\":{\"name\":\"Stanton-Breitenberg\",\"address\":\"618 Carrie Shore\",\"city\":\"Keelingside\",\"country\":null,\"email\":\"olga.harvey@caspercarter.info\",\"phone\":\"(615)193-4913\"}}",
+      "request_body": "{\"company\":{\"name\":\"Koelpin-Cummerata\",\"address\":\"3813 Hassie Bypass\",\"city\":\"South Kara\",\"country\":\"Belize\",\"email\":\"montana_hoeger@schinner.biz\",\"phone\":\"(200)650-4470\"}}",
       "request_headers": {
         "Accept": "application/json",
         "Content-Type": "application/json",
@@ -58,10 +58,10 @@
       "request_content_type": "application/json",
       "response_status": 201,
       "response_status_text": "Created",
-      "response_body": "{\"company\":{\"id\":461,\"name\":\"Stanton-Breitenberg\",\"address\":\"618 Carrie Shore\",\"city\":\"Keelingside\",\"country\":null,\"email\":\"olga.harvey@caspercarter.info\",\"phone\":\"(615)193-4913\"}}",
-      "response_headers": {"X-Frame-Options":"SAMEORIGIN","X-XSS-Protection":"1; mode=block","X-Content-Type-Options":"nosniff","X-UA-Compatible":"chrome=1","Location":"http://example.org/api/companies/461","Content-Type":"application/json; charset=utf-8","ETag":"\"e596bf0217324659bdc3fc035fefe8cf\"","Cache-Control":"max-age=0, private, must-revalidate","X-Request-Id":"7290b740-73a8-4249-b3b7-c3a7d9d1da85","X-Runtime":"0.013664","Content-Length":"180"},
+      "response_body": "{\"id\":1099,\"name\":\"Koelpin-Cummerata\",\"address\":\"3813 Hassie Bypass\",\"city\":\"South Kara\",\"country\":\"Belize\",\"email\":\"montana_hoeger@schinner.biz\",\"phone\":\"(200)650-4470\"}",
+      "response_headers": {"X-Frame-Options":"SAMEORIGIN","X-XSS-Protection":"1; mode=block","X-Content-Type-Options":"nosniff","X-UA-Compatible":"chrome=1","Location":"http://example.org/api/companies/1099","Content-Type":"application/json; charset=utf-8","ETag":"\"58872aadf4edec6b0c44217cf41c96c1\"","Cache-Control":"max-age=0, private, must-revalidate","X-Request-Id":"5586c0c7-bd6c-4f30-a58b-d6c96b60e997","X-Runtime":"0.016120","Content-Length":"170"},
       "response_content_type": "application/json; charset=utf-8",
-      "curl": "curl \"http://localhost:3000/api/companies\" -d '{\"company\":{\"name\":\"Stanton-Breitenberg\",\"address\":\"618 Carrie Shore\",\"city\":\"Keelingside\",\"country\":null,\"email\":\"olga.harvey@caspercarter.info\",\"phone\":\"(615)193-4913\"}}' -X POST \\\n\t-H \"Accept: application/json\" \\\n\t-H \"Content-Type: application/json\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
+      "curl": "curl \"http://localhost:3000/api/companies\" -d '{\"company\":{\"name\":\"Koelpin-Cummerata\",\"address\":\"3813 Hassie Bypass\",\"city\":\"South Kara\",\"country\":\"Belize\",\"email\":\"montana_hoeger@schinner.biz\",\"phone\":\"(200)650-4470\"}}' -X POST \\\n\t-H \"Accept: application/json\" \\\n\t-H \"Content-Type: application/json\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
 }
   ]
 }

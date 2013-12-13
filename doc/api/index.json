@@ -1,21 +1,26 @@
 {
   "resources": [
     {
-      "name": "Companies",
+      "name": "Passports",
       "examples": [
         {
-          "description": "Deleting a company",
-          "link": "companies/deleting_a_company.json",
+          "description": "Listing company passports",
+          "link": "passports/listing_company_passports.json",
           "groups": "all"
-        },
+        }
+      ]
+    },
+    {
+      "name": "Companies",
+      "examples": [
         {
           "description": "Getting a specific company",
           "link": "companies/getting_a_specific_company.json",
           "groups": "all"
         },
         {
-          "description": "Updating a company",
-          "link": "companies/updating_a_company.json",
+          "description": "Listing companies",
+          "link": "companies/listing_companies.json",
           "groups": "all"
         },
         {
@@ -24,8 +29,13 @@
           "groups": "all"
         },
         {
-          "description": "Listing companies",
-          "link": "companies/listing_companies.json",
+          "description": "Updating a company",
+          "link": "companies/updating_a_company.json",
+          "groups": "all"
+        },
+        {
+          "description": "Deleting a company",
+          "link": "companies/deleting_a_company.json",
           "groups": "all"
         }
       ]

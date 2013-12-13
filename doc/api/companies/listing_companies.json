@@ -23,8 +23,8 @@
       "request_content_type": "application/json",
       "response_status": 200,
       "response_status_text": "OK",
-      "response_body": "{\"companies\":[{\"id\":462,\"name\":\"Von, Adams and Waters\",\"address\":\"46881 Alfreda Coves\",\"city\":\"South Maryjaneton\",\"country\":null,\"email\":\"simeon@stokes.com\",\"phone\":\"1-619-086-7365 x17721\"},{\"id\":463,\"name\":\"Stiedemann, Goldner and Weber\",\"address\":\"83045 Dibbert Parks\",\"city\":\"Lenniemouth\",\"country\":null,\"email\":\"hailee.hills@rempel.us\",\"phone\":\"1-149-062-6124\"}]}",
-      "response_headers": {"X-Frame-Options":"SAMEORIGIN","X-XSS-Protection":"1; mode=block","X-Content-Type-Options":"nosniff","X-UA-Compatible":"chrome=1","Content-Type":"application/json; charset=utf-8","ETag":"\"3560e0b0791014a39df3cc96445b04ba\"","Cache-Control":"max-age=0, private, must-revalidate","X-Request-Id":"3a4da7f0-cf4e-4075-9f08-af1092d5f8c1","X-Runtime":"0.007228","Content-Length":"367"},
+      "response_body": "{\"companies\":[{\"id\":1097,\"name\":\"Schultz-Shields\",\"address\":\"93615 Rogelio Corner\",\"city\":\"South Kyler\",\"country\":\"Haiti\",\"email\":\"patience.nader@harris.co.uk\",\"phone\":\"1-642-483-8305\"},{\"id\":1098,\"name\":\"Berge and Sons\",\"address\":\"39766 Lubowitz Flats\",\"city\":\"East Serenity\",\"country\":\"Mongolia\",\"email\":\"elouise_durgan@abbottschumm.ca\",\"phone\":\"1-439-018-8630\"}]}",
+      "response_headers": {"X-Frame-Options":"SAMEORIGIN","X-XSS-Protection":"1; mode=block","X-Content-Type-Options":"nosniff","X-UA-Compatible":"chrome=1","Content-Type":"application/json; charset=utf-8","ETag":"\"3f5b551e10a72f5b2951fc69c0e61993\"","Cache-Control":"max-age=0, private, must-revalidate","X-Request-Id":"2f89e507-914f-40d2-abb9-2f895c99a0b2","X-Runtime":"0.007765","Content-Length":"366"},
       "response_content_type": "application/json; charset=utf-8",
       "curl": "curl \"http://localhost:3000/api/companies\" -X GET \\\n\t-H \"Accept: application/json\" \\\n\t-H \"Content-Type: application/json\" \\\n\t-H \"Host: example.org\" \\\n\t-H \"Cookie: \""
 }
