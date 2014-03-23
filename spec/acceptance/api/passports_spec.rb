@@ -7,7 +7,7 @@ resource "Passports" do
 
   let(:passport) { create :passport }
 
-  get "/api/companies/:company_id/passports" do
+  get "/api/passports?company_id=:company_id" do
     before { passport }
 
     let(:company_id) { passport.company.id }

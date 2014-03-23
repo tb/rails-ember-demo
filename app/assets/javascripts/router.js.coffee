@@ -2,15 +2,17 @@
 
 App.Router.map ->
   @resource 'companies', ->
+    @route 'new'
     @resource 'company', path: '/:company_id', ->
       @route 'edit'
-    @route 'new'
+      @resource 'passport'
 
 App.IndexRoute = Em.Route.extend
   redirect: -> @transitionTo 'companies'
 
 App.CompaniesRoute = Em.Route.extend
   model: -> @store.find 'company'
+  renderTemplate: -> @render 'application', into: 'application'
 
 App.CompanyEditRoute = Em.Route.extend
   model: -> @modelFor 'company'

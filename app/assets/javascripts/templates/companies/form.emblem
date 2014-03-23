@@ -18,4 +18,17 @@ ul
     label Phone
     view Ember.TextField valueBinding="phone"
 
+ul
+  each passports itemController='passport'
+    li
+      label Title
+      view Ember.TextField valueBinding="title"
+
+      label File
+      view App.UploadFile name="file" file=file
+
+      a href="#" click="delete this" Remove
+p
+  a href="#" click="addPassport this" Add passport
+
 button{action "save"} Save

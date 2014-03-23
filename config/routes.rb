@@ -5,9 +5,8 @@ RailsEmberDemo::Application.routes.draw do
   resources :companies
 
   namespace :api do
-    resources :companies do
-      resources :passports
-    end
+    resources :companies
+    resources :passports
   end
 
   # The priority is based upon order of creation: first created -> highest priority.
